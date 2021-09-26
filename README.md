@@ -12,3 +12,7 @@ Cypress adalah alat pengujian ujung depan generasi berikutnya yang dibuat untuk 
 - .should : untuk memverifikasi bahwa nilai input mencerminkan teks yang diketik
 - cy.pause() : untuk menjeda jalannya testing
 - cy.debug() : 
+- cy.exec() - untuk menjalankan perintah sistem
+- cy.task()- untuk menjalankan kode di Node melalui pluginsFile
+- cy.request() - untuk membuat permintaan HTTP
+- Jika ingin menjalankan node.js, dapat ditambahkan before atau beforeEach hook yang menjalankan npm tugas
