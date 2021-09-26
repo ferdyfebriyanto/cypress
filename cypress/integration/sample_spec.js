@@ -2,6 +2,8 @@ describe('My First Test', () => {
     it('Gets, type and asserts', () => {
         cy.visit('https://example.cypress.io')
 
+        cy.pause()
+
         cy.contains('type').click()
 
         // Should be on a new URL which includes '/commands/actions'
