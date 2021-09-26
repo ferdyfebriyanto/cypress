@@ -1,5 +1,5 @@
 describe('My First Test', () => {
-    it('Visit the kitchen Sink', () => {
+    it('Finds the content "type"', () => {
         cy.visit('https://example.cypress.io')
 
         cy.contains('type').click()
